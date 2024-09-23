@@ -1,0 +1,211 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+#root {
+  margin: 0 auto;
+  font-family: Montserrat;
+  background-color: #fffbf8;
+  color: #081917;
+}
+
+.spacing {
+  margin-bottom: 7rem;
+}
+
+/* @media screen and (min-width: 640px) {
+  .page {
+    padding: 10rem;
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  .page {
+    margin: 4rem;
+    padding: 3rem;
+  }
+}
+
+.page {
+  margin: 4rem;
+  padding: 3rem;
+} */
+
+.home-banner,
+.modal-dialog .left {
+  background: rgb(44, 74, 74);
+  background: linear-gradient(
+    160deg,
+    rgba(44, 74, 74, 1) 0%,
+    rgba(109, 154, 154, 1) 49%,
+    rgba(162, 194, 194, 1) 100%
+  );
+}
+
+.home-banner .banner-title {
+  font-family: DelaGothic;
+  color: #fffbf8;
+}
+
+.home-banner .banner-subtitle {
+  color: #fff5eecb;
+}
+
+.home-banner .banner-button {
+  background-color: #081917;
+}
+
+.home-banner .banner-button:hover {
+  background-color: #1c4b47;
+}
+
+/* NAVIGATION */
+.navigation {
+  background-color: #fffbf8;
+}
+
+.navigation .navigation-logo {
+  font-family: DelaGothic;
+  color: #081917;
+}
+
+.navigation .navigation-button {
+  background-color: #081917;
+}
+
+.navigation .navigation-button:hover {
+  background-color: #1c4b47;
+}
+
+.navigation li:hover {
+  color: #1c4b47;
+}
+
+/* STEPS */
+.steps-div .steps-content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.book-card img {
+  width: 50%;
+}
+
+.book-card {
+  transition: transform 1s;
+}
+
+.book-card:hover {
+  transform: scale(1.1);
+}
+
+.swiper-button-next,
+.swiper-button-prev {
+  color: #040c0b;
+}
+
+.swiper-button-next:hover,
+.swiper-button-prev:hover {
+  color: #1c4b47;
+}
+
+/* BOOK OF THE MONTH */
+.book-of-the-month {
+  background-color: #081917;
+  color: #fff5eecb;
+}
+
+.book-of-the-month .book-img {
+  background-color: #040c0b;
+}
+
+/* FOOTER */
+.footer {
+  background-color: #081917;
+}
+
+.footer .footer-logo {
+  font-family: DelaGothic;
+  color: #081917;
+}
+
+.modal-dialog .logo,
+.modal-dialog .welcome-message {
+  font-family: DelaGothic;
+}
+
+.books-component .title,
+.book .title,
+.about .title,
+.book-details .title {
+  font-family: DelaGothic;
+}
+
+.sidebar .category-title {
+  font-weight: bold;
+  font-size: 1.125rem;
+  line-height: 1.75rem;
+}
+
+.book-card {
+  transition: transform 1s;
+}
+
+.book-card:hover {
+  transform: scale(1.1);
+}
+
+.sidebar .category-text {
+  font-size: 0.875rem;
+  line-height: 1.25rem;
+  transition: transform 0.4s;
+  color: black;
+  font-weight: 500;
+}
+
+.sidebar .category-text:hover {
+  transform: scale(1.05);
+  color: black;
+}
+
+@media screen and (min-width: 1024px) {
+  .swiper-container {
+    width: 1024px;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .swiper-container {
+    width: 768px;
+  }
+}
+
+/* pagination */
+.selected {
+  background-color: #1c4b47;
+  color: white;
+}
+
+.standby {
+  background-color: #1c4b478c;
+  color: white;
+}
+
+.filter-button {
+  background-color: #081917;
+  color: white;
+}
+
+.filter-button:hover {
+  background-color: #1c4b47;
+  color: white;
+}
+
+.dropdown-choice,
+.modal-dialog,
+.navigation {
+  font-family: Montserrat;
+}
