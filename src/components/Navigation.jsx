@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useState } from "react";
 import { Menu, MenuButton, MenuItem, MenuItems } from "@headlessui/react";
 import { Link } from "react-router-dom";
 
@@ -69,19 +69,16 @@ function Navigation() {
             className="navigation-list hidden w-full lg:block lg:w-auto"
             id="navbar-default"
           >
-            <ul className="font-extrabold lg:flex lg:flex-row lg:space-x-11 lg:space-y-0">
-              <li className="sm:mt-6 md:mt-0">
-                <Link to="/isabook/" className="block my-3 md:py-2 md:px-3">
+            <ul className="font-extrabold lg:flex lg:flex-row lg:space-x-11 lg:space-y-0 ">
+              <li className="sm:mt-6 md:mt-0 ">
+                <a href="/" className="block my-3 md:py-2 md:px-3">
                   Home
-                </Link>
+                </a>
               </li>
               <li>
-                <Link
-                  to="/isabook/books"
-                  className="block my-3 md:py-2 md:px-3"
-                >
+                <a href="/books" className="block my-3 md:py-2 md:px-3">
                   Books
-                </Link>
+                </a>
               </li>
               <li>
                 <Menu>
@@ -95,16 +92,16 @@ function Navigation() {
                   >
                     <div className="category grid grid-cols-3">
                       {categoriesCut.map((categoryList, listIndex) => (
-                        <div className="mx-5" key={listIndex}>
-                          <ul>
+                        <div className="mx-5">
+                          <ul key={listIndex}>
                             {categoryList.map((category, categoryIndex) => (
                               <MenuItem key={categoryIndex}>
-                                <Link
-                                  to={`/isabook/books?category=${category}`}
+                                <a
+                                  href={`/books?category=${category}`}
                                   className="dropdown-choice group flex w-full gap-2 p-2 hover:bg-gray-200 font-semibold"
                                 >
                                   {category}
-                                </Link>
+                                </a>
                               </MenuItem>
                             ))}
                           </ul>
@@ -115,12 +112,9 @@ function Navigation() {
                 </Menu>
               </li>
               <li>
-                <Link
-                  to="/isabook/about"
-                  className="block my-3 md:py-2 md:px-3"
-                >
+                <a href="/about" className="block my-3 md:py-2 md:px-3">
                   About
-                </Link>
+                </a>
               </li>
             </ul>
           </div>
