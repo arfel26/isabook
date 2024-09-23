@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React from "react";
 import { Menu, MenuButton, MenuItem, MenuItems } from "@headlessui/react";
 import { Link } from "react-router-dom";
 
@@ -44,8 +44,6 @@ function Navigation() {
   }
 
   const categoriesCut = cutArrayToTen(categories, 10);
-  const categoryListCount = categoriesCut.length;
-  console.log(categoryListCount);
 
   return (
     <>
@@ -71,16 +69,19 @@ function Navigation() {
             className="navigation-list hidden w-full lg:block lg:w-auto"
             id="navbar-default"
           >
-            <ul className="font-extrabold lg:flex lg:flex-row lg:space-x-11 lg:space-y-0 ">
-              <li className="sm:mt-6 md:mt-0 ">
-                <a href="/" className="block my-3 md:py-2 md:px-3">
+            <ul className="font-extrabold lg:flex lg:flex-row lg:space-x-11 lg:space-y-0">
+              <li className="sm:mt-6 md:mt-0">
+                <Link to="/isabook/" className="block my-3 md:py-2 md:px-3">
                   Home
-                </a>
+                </Link>
               </li>
               <li>
-                <a href="/books" className="block my-3 md:py-2 md:px-3">
+                <Link
+                  to="/isabook/books"
+                  className="block my-3 md:py-2 md:px-3"
+                >
                   Books
-                </a>
+                </Link>
               </li>
               <li>
                 <Menu>
@@ -92,20 +93,18 @@ function Navigation() {
                     anchor="bottom end"
                     className="w-auto origin-top-right rounded-md border m-2 border-black/1 shadow-lg bg-white p-3 text-sm transition duration-100 ease-out [--anchor-gap:var(--spacing-1)] focus:outline-none data-[closed]:scale-95 data-[closed]:opacity-0 z-20"
                   >
-                    <div
-                      className={`category grid grid-cols-${categoryListCount}`}
-                    >
+                    <div className="category grid grid-cols-3">
                       {categoriesCut.map((categoryList, listIndex) => (
-                        <div className="mx-5">
-                          <ul key={listIndex}>
+                        <div className="mx-5" key={listIndex}>
+                          <ul>
                             {categoryList.map((category, categoryIndex) => (
                               <MenuItem key={categoryIndex}>
-                                <a
-                                  href={`/books?category=${category}`}
+                                <Link
+                                  to={`/isabook/books?category=${category}`}
                                   className="dropdown-choice group flex w-full gap-2 p-2 hover:bg-gray-200 font-semibold"
                                 >
                                   {category}
-                                </a>
+                                </Link>
                               </MenuItem>
                             ))}
                           </ul>
@@ -116,9 +115,12 @@ function Navigation() {
                 </Menu>
               </li>
               <li>
-                <a href="/about" className="block my-3 md:py-2 md:px-3">
+                <Link
+                  to="/isabook/about"
+                  className="block my-3 md:py-2 md:px-3"
+                >
                   About
-                </a>
+                </Link>
               </li>
             </ul>
           </div>
