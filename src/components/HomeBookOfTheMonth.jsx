@@ -1,4 +1,5 @@
 import React from "react";
+import cover from "../../src/assets/books/The Housemaid.jpg";
 
 export default function HomeBookOfTheMonth() {
   return (
@@ -27,7 +28,7 @@ export default function HomeBookOfTheMonth() {
           </div>
           <div className="right book-img flex justify-center items-center p-5 md:p-10">
             <img
-              src="../../src/assets/books/The Housemaid.jpg"
+              src={cover}
               alt="Lorem ipsum dolor sit amet, consectetur adipisicing elit."
               className="w-full h-auto max-w-[400px] max-h-[1000px]"
             />

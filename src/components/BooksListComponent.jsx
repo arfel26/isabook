@@ -96,7 +96,7 @@ function BookListComponent() {
                         className="p-3 mx-1 flex justify-center flex-col items-center"
                       >
                         <img
-                          src={book.img}
+                          src={import.meta.env.BASE_URL + book.img}
                           className="bg-stone-300 p-4 w-40 h-48 md:w-56 md:h-80"
                           alt={book.title}
                         />

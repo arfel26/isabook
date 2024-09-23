@@ -23,7 +23,7 @@ function HomeBanner() {
             key={index}
           >
             <img
-              src={`/src/assets/${cover}.png`}
+              src={import.meta.env.BASE_URL + `/src/assets/${cover}.png`}
               className="w-full h-full object-cover"
               alt=""
               srcset=""

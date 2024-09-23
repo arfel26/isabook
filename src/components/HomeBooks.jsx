@@ -38,7 +38,7 @@ function HomeBooks() {
             <Link to={`/book/${book.id}`} key={book.id}>
               <div className="book-card flex flex-col justify-center items-center text-center">
                 <img
-                  src={book.img}
+                  src={import.meta.env.BASE_URL + book.img}
                   className="bg-stone-300 p-4"
                   alt={book.title}
                 />

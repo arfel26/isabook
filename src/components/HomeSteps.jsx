@@ -12,7 +12,7 @@ function HomeSteps() {
         <div className="steps grid grid-cols-1 lg:grid-cols-3 ">
           <div className="steps-content mx-12 p-10">
             <img
-              src="../src/assets/1.png"
+              src={import.meta.env.BASE_URL + "/src/assets/1.png"}
               className="w-36 md:w-52 lg:w-40"
               alt=""
             />
@@ -23,7 +23,7 @@ function HomeSteps() {
           </div>
           <div className="steps-content mx-12 p-10">
             <img
-              src="../src/assets/2.png"
+              src={import.meta.env.BASE_URL + "/src/assets/2.png"}
               className="w-36 md:w-52 lg:w-40"
               alt=""
             />
@@ -37,7 +37,7 @@ function HomeSteps() {
           </div>
           <div className="steps-content mx-12 p-10">
             <img
-              src="../src/assets/3.png"
+              src={import.meta.env.BASE_URL + "/src/assets/3.png"}
               className="w-36 md:w-52 lg:w-40"
               alt=""
             />

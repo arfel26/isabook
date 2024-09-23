@@ -6,7 +6,7 @@ function BookDetails() {
   const { id } = useParams();
   const selectedBook = books.filter((book) => book.id == id);
   const book = selectedBook[0];
-  const bookImg = `../..${book.img}`;
+  const bookImg = `${book.img}`;
 
   return (
     <div>
@@ -17,7 +17,7 @@ function BookDetails() {
         >
           <div className="left book-img flex justify-center items-center p-5 md:p-10">
             <img
-              src={bookImg}
+              src={import.meta.env.BASE_URL + bookImg}
               alt="Lorem ipsum dolor sit amet, consectetur adipisicing elit."
               className="bg-[#1c4b47] p-5 w-full h-auto max-w-[250px] max-h-[400px] lg:max-w-[450px] lg:max-h-[950px]"
             />
