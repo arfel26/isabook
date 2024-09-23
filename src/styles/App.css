@@ -3,6 +3,11 @@
   src: url("../fonts/DelaGothicOneRegular.ttf");
 }
 
+@font-face {
+  font-family: "Poppins";
+  src: url("../fonts/PoppinsRegular.ttf");
+}
+
 /*
 Olive: #727651
 Sunlit Sand: #fcf5e5
