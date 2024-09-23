@@ -1,5 +1,5 @@
 import "./styles/App.css";
-import { BrowserRouter, Route, Routes } from "react-router-dom";
+import { HashRouter as Router, Route, Routes } from "react-router-dom";
 import Home from "./pages/Home";
 import Books from "./pages/Books";
 import Book from "./pages/Book";
@@ -11,7 +11,7 @@ function App() {
   return (
     <>
       <Navigation />
-      <BrowserRouter basename={import.meta.env.BASE_URL}>
+      <Router>
         <Routes>
           <Route path="/" element={<Home />} />
           <Route path="/books" element={<Books />} />
@@ -19,7 +19,7 @@ function App() {
           <Route path="/about" element={<About />} />
           <Route path="/books/:category" element={<Books />} />
         </Routes>
-      </BrowserRouter>
+      </Router>
       <Footer />
     </>
   );
