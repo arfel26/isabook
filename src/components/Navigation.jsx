@@ -65,6 +65,7 @@ function Navigation() {
 
   const categoriesCut = cutArrayToTen(categories, 10);
   const categoryListCount = categoriesCut.length;
+  console.log(categoryListCount);
 
   return (
     <>

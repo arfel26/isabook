@@ -18,7 +18,7 @@ function BookDetails() {
           <div className="left book-img flex justify-center items-center p-5 md:p-10">
             <img
               src={import.meta.env.BASE_URL + bookImg}
-              alt="Lorem ipsum dolor sit amet, consectetur adipisicing elit."
+              alt={book.title}
               className="bg-[#1c4b47] p-5 w-full h-auto max-w-[250px] max-h-[400px] lg:max-w-[450px] lg:max-h-[950px]"
             />
           </div>
@@ -27,7 +27,7 @@ function BookDetails() {
               <h1 className="title text-3xl lg:text-6xl text-center lg:text-left">
                 {book.title}
               </h1>
-              <h1 className="author text-base lg:text-lg text-center lg:text-left my-4 ">
+              <h1 className="author text-base lg:text-lg text-center lg:text-left my-4">
                 by: {book.author}
               </h1>
               <div class="flex justify-center lg:justify-start">

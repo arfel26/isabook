@@ -3,7 +3,7 @@ export const books = [
     id: 1,
     title: "The Seven Husbands of Evelyn Hugo",
     author: "Taylor Jenkins Reid",
-    img: "/src/assets/books/The Seven Husbands of Evelyn Hugo.jpg",
+    img: "assets/books/The Seven Husbands of Evelyn Hugo.jpg",
     stars: 5,
     description: [
       "Aging and reclusive Hollywood movie icon Evelyn Hugo is finally ready to tell the truth about her glamorous and scandalous life. But when she chooses unknown magazine reporter Monique Grant for the job, no one is more astounded than Monique herself. Why her? Why now?",
@@ -29,7 +29,7 @@ export const books = [
     id: 2,
     title: "Maybe in Another Life",
     author: "Taylor Jenkins Reid",
-    img: "/src/assets/books/Maybe in Another Life.jpg",
+    img: "assets/books/Maybe in Another Life.jpg",
     stars: 3.79,
     description: [
       "From the acclaimed author of Forever, Interrupted and After I Do comes a breathtaking new novel about a young woman whose fate hinges on the choice she makes after bumping into an old flame; in alternating chapters, we see two possible scenarios unfold—with stunningly different results.",
@@ -48,7 +48,7 @@ export const books = [
     id: 3,
     title: "It Ends with Us",
     author: "Colleen Hoover",
-    img: "/src/assets/books/It Ends with Us.jpg",
+    img: "assets/books/It Ends with Us.jpg",
     stars: 4.14,
     description: [
       "Sometimes it is the one who loves you who hurts you the most.",
@@ -66,7 +66,7 @@ export const books = [
     id: 4,
     title: "Men Have Called Her Crazy",
     author: "Anna Marie Tendler",
-    img: "/src/assets/books/Men Have Called Her Crazy.jpg",
+    img: "assets/books/Men Have Called Her Crazy.jpg",
     stars: 3.59,
     description: [
       "In early 2021, popular artist Anna Marie Tendler checked herself into a psychiatric hospital following a year of crippling anxiety, depression and self-harm. Over two weeks, she underwent myriad psychological tests, participated in numerous therapy sessions, connected with fellow patients and experienced profound breakthroughs, such as when a doctor noted, “There is a you inside that feels invisible to those looking at you from the outside.”",
@@ -83,7 +83,7 @@ export const books = [
     id: 5,
     title: "We Used to Live Here",
     author: "Marcus Kliewer",
-    img: "/src/assets/books/We Used to Live Here.jpg",
+    img: "assets/books/We Used to Live Here.jpg",
     stars: 3.83,
     description: [
       "As a young, queer couple who flip houses, Charlie and Eve can’t believe the killer deal they’ve just gotten on an old house in a picturesque neighborhood. As they’re working in the house one day, there’s a knock on the door. A man stands there with his family, claiming to have lived there years before and asking if it would be alright if he showed his kids around. People pleaser to a fault, Eve lets them in.",
@@ -106,7 +106,7 @@ export const books = [
     id: 6,
     title: "I Was A Teenage Slasher",
     author: "Stephen Graham Jones",
-    img: "/src/assets/books/I Was A Teenage Slasher.jpg",
+    img: "assets/books/I Was A Teenage Slasher.jpg",
     stars: 3.66,
     description: [
       "1989, Lamesa, Texas. A small west Texas town driven by oil and cotton—and a place where everyone knows everyone else’s business. So it goes for Tolly Driver, a good kid with more potential than application, seventeen, and about to be cursed to kill for revenge. Here Stephen Graham Jones explores the Texas he grew up in, and shared sense of unfairness of being on the outside through the slasher horror Jones loves, but from the perspective of the killer, Tolly, writing his own autobiography. Find yourself rooting for a killer in this summer teen movie of a novel gone full blood-curdling tragic.",
@@ -121,7 +121,7 @@ export const books = [
     id: 7,
     title: "Just Add Water: My Swimming Life",
     author: "Katie Ledecky",
-    img: "/src/assets/books/Just Add Water.jpg",
+    img: "assets/books/Just Add Water.jpg",
     stars: 4.23,
     description: [
       "Katie Ledecky has won more individual Olympic races than any female swimmer in history. She is a three-time Olympian, a seven-time gold medalist, a twenty-one-time world champion, eight-time NCAA Champion, and a world record-holder in individual swimming events. Time and again, the question is posed to her family, her coaches, and to her—what makes her a champion? Now, for the first time, she shares what it takes to compete at an elite level.",
@@ -139,7 +139,7 @@ export const books = [
     id: 8,
     title: "Every Day",
     author: "David Levithan",
-    img: "/src/assets/books/Every Day.jpg",
+    img: "assets/books/Every Day.jpg",
     stars: 4,
     description: [
       "It’s all fine until the morning that A wakes up in the body of Justin and meets Justin’s girlfriend, Rhiannon. From that moment, the rules by which A has been living no longer apply. Because finally A has found someone A wants to be with—day in, day out, day after day.",
@@ -164,7 +164,7 @@ export const books = [
     id: 9,
     title: "Another Day",
     author: "David Levithan",
-    img: "/src/assets/books/Another Day.jpg",
+    img: "assets/books/Another Day.jpg",
     stars: 3,
     description: [
       "Every day is the same for Rhiannon. She has accepted her life, convinced herself that she deserves her distant, temperamental boyfriend, Justin, even established guidelines by which to live: Don’t be too needy. Avoid upsetting him. Never get your hopes up.",
@@ -191,7 +191,7 @@ export const books = [
     id: 10,
     title: "Someday",
     author: "David Levithan",
-    img: "/src/assets/books/Someday.jpg",
+    img: "assets/books/Someday.jpg",
     stars: 3,
     description: [
       "Every day a new body. Every day a new life. Every day a new choice.",
@@ -220,7 +220,7 @@ export const books = [
     id: 11,
     title: "The Inmate",
     author: "Freida McFadden",
-    img: "/src/assets/books/The Inmate.jpg",
+    img: "assets/books/The Inmate.jpg",
     stars: 4,
     description: [
       "There are three rules Brooke Sullivan must follow as a new nurse practitioner at a men's maximum-security:",
@@ -245,7 +245,7 @@ export const books = [
     id: 12,
     title: "They Both Die at the End",
     author: "Adam Silvera",
-    img: "/src/assets/books/They Both Die at the End.jpg",
+    img: "assets/books/They Both Die at the End.jpg",
     stars: 4,
     description: [
       "On September 5, a little after midnight, Death-Cast calls Mateo Torrez and Rufus Emeterio to give them some bad news: They’re going to die today.",
@@ -261,7 +261,7 @@ export const books = [
     id: 13,
     title: "The Housemaid",
     author: "Freida McFadden",
-    img: "/src/assets/books/The Housemaid.jpg",
+    img: "assets/books/The Housemaid.jpg",
     stars: 4.32,
     description: [
       "“Welcome to the family,” Nina Winchester says as I shake her elegant, manicured hand. I smile politely, gazing around the marble hallway. Working here is my last chance to start fresh. I can pretend to be whoever I like. But I’ll soon learn that the Winchesters’ secrets are far more dangerous than my own…",
@@ -289,7 +289,7 @@ export const books = [
     id: 14,
     title: "Peggy",
     author: "Rebecca Godfrey, Leslie Jamison",
-    img: "/src/assets/books/Peggy.jpg",
+    img: "assets/books/Peggy.jpg",
     stars: 3.66,
     description: [
       "Venice, 1958. Peggy Guggenheim, heiress and now legendary art collector, sits in the sun at her white marble palazzo on the Grand Canal. She’s in a reflective mood, thinking back on her thrilling, tragic, nearly impossible journey from her sheltered, old-fashioned family in New York to here: iconoclast and independent woman.",
@@ -315,7 +315,7 @@ export const books = [
     id: 15,
     title: "Colorful",
     author: "Iris Apfel",
-    img: "/src/assets/books/Colorful.jpg",
+    img: "assets/books/Colorful.jpg",
     stars: 4.07,
     description: [
       "Iris Apfel’s legacy29 August 1921 to 1 March 2024.In the summer of 2023, as Iris Apfel welcomed her 102nd birthday, she put pen to paper to write this very special what Iris called her legacy book.Comprising of over 300 personal photos and adorned with beautiful, unseen fabric patterns from her Old World Weaver’s collection, Iris’s incredible energy radiates from every page. Here she shares her creative work, life stories, adventures, and her unwavering belief in the essential power of colour and creativity on a life well lived.'It has been an honour to know and to learn from Iris.' Ruvén Afanador'A force of nature.' Tommy Hilfiger'One of the industry’s oldest tastemakers.' VogueThis is not a book of secrets – I have no secrets. Sorry to disappoint if that’s what you’re looking for. I have some good stories though. And a few ideas. This book is about living, creating and colour. Because creativity and colour matter. I don’t want you to dress like me or think like me – that’s not the idea of this book. I want you to find the colours, confidence and creative inspiration that reflect you. My life has been filled with love, wonder and a very deep, incurable curiosity. This book is my treasure trove of inspiration, influences and My source. Be brave. Find your source. What makes you happy?Much love, Iris x",
@@ -330,7 +330,7 @@ export const books = [
     id: 16,
     title: "Costanza",
     author: "Rachel Blackmore",
-    img: "/src/assets/books/Costanza.jpg",
+    img: "assets/books/Costanza.jpg",
     stars: 4.31,
     description: [
       "Rome, 1636. History calls her a Muse. Temptress. Fallen woman. This is her story.",
@@ -350,7 +350,7 @@ export const books = [
     id: 17,
     title: "Catherine, the Princess of Wales: A Biography of the Future Queen",
     author: "Robert Jobson",
-    img: "/src/assets/books/Catherine, the Princess of Wales A Biography of the Future Queen.jpg",
+    img: "assets/books/Catherine, the Princess of Wales A Biography of the Future Queen.jpg",
     stars: 3.22,
     description: [
       `Through the author’s extensive connections within the royal household, this dynamic new biography tells the full story of how Catherine, the Princess of Wales, became the woman she is today.Kate Middleton's life's story seems like a modern-day fairy-tale. An attractive, clever, and ambitious girl from unexceptional beginnings meets and falls in love with a wealthy prince when they are both college undergraduates. Now, with the British monarchy in transition, Catherine is destined to become the first "commoner Queen” in British history since Anne Hyde, wife of James II. Since her wedding on April 29th, 2011—and since becoming the Duchess of Cambridge—Catherine has endeared herself to the people of the Britain and America with her extensive travels, with her infectious smile, sense of style, and down-to-earth nature. With her self-deprecation, willingness to laugh at herself, solid work-ethic—along with William’s warmth, and accessibility—this dynamic duo has become the most popular members of the royal family. As interest in the royals continues to gain legions of new, younger fans, there is increasing interest in the histories and back stories of the principal players in this story. Through the author’s connection with sources both on and off the record within the royal household, this dynamic new biography tells the full story of how Catherine became the woman she is today.`,
@@ -371,7 +371,7 @@ export const books = [
     id: 18,
     title: "Drawn Testimony: My Four Decades as a Courtroom Sketch Artist",
     author: "Jane Rosenberg",
-    img: "/src/assets/books/Drawn Testimony My Four Decades as a Courtroom Sketch Artist.jpg",
+    img: "assets/books/Drawn Testimony My Four Decades as a Courtroom Sketch Artist.jpg",
     stars: 4.26,
     description: [
       `A penetrating, compulsively readable memoir about the four-decade career of America's top courtroom sketch artist, for fans of Lab Girl and Working Stiff
@@ -400,7 +400,7 @@ export const books = [
     id: 19,
     title: "Zero to One: Notes on Startups, or How to Build the Future",
     author: "Peter Thiel, Blake Masters",
-    img: "/src/assets/books/Zero to One Notes on Startups, or How to Build the Future.jpg",
+    img: "assets/books/Zero to One Notes on Startups, or How to Build the Future.jpg",
     stars: 4.15,
     description: [
       `If you want to build a better future, you must believe in secrets.`,
@@ -431,7 +431,7 @@ export const books = [
     id: 20,
     title: "The Lean Startup",
     author: "Eric Ries",
-    img: "/src/assets/books/The Lean Startup.jpg",
+    img: "assets/books/The Lean Startup.jpg",
     stars: 4.11,
     description: [
       `Eric Ries defines a startup as an organization dedicated to creating something new under conditions of extreme uncertainty. This is just as true for one person in a garage or a group of seasoned professionals in a Fortune 500 boardroom. What they have in common is a mission to penetrate that fog of uncertainty to discover a successful path to a sustainable business.`,
@@ -459,7 +459,7 @@ export const books = [
     id: 21,
     title: "Shoe Dog: A Memoir by the Creator of Nike",
     author: "Phil Knight",
-    img: "/src/assets/books/Shoe Dog A Memoir by the Creator of Nike.jpg",
+    img: "assets/books/Shoe Dog A Memoir by the Creator of Nike.jpg",
     stars: 4.47,
     description: [
       `In this candid and riveting memoir, for the first time ever, Nike founder and CEO Phil Knight shares the inside story of the company’s early days as an intrepid start-up and its evolution into one of the world’s most iconic, game-changing, and profitable brands.`,
@@ -487,7 +487,7 @@ export const books = [
     id: 22,
     title: "Mastering AI: A Survival Guide to Our Superpowered Future",
     author: "Jeremy Kahn",
-    img: "/src/assets/books/Mastering AI A Survival Guide to Our Superpowered Future.jpg",
+    img: "assets/books/Mastering AI A Survival Guide to Our Superpowered Future.jpg",
     stars: 3.97,
     description: [
       `A Fortune magazine journalist draws on his expertise and extensive contacts among the companies and scientists at the forefront of artificial intelligence to offer dramatic predictions of AI’s impact over the next decade, from reshaping our economy and the way we work, learn, and create to unknitting our social fabric, jeopardizing our democracy, and fundamentally altering the way we think.`,
@@ -505,7 +505,7 @@ export const books = [
     id: 23,
     title: "Amari and the Despicable Wonders",
     author: "B.B. Alston",
-    img: "/src/assets/books/Amari and the Despicable Wonders.jpg",
+    img: "assets/books/Amari and the Despicable Wonders.jpg",
     stars: 4.35,
     description: [
       `The highly anticipated third book in the #1 New York Times bestselling Supernatural Investigations series that began with Amari and the Night Brothers!`,
@@ -535,7 +535,7 @@ export const books = [
     id: 24,
     title: "Wonka",
     author: "Sibéal Pounder, Roald Dahl, Simon Farnaby, Paul King",
-    img: "/src/assets/books/Wonka.jpg",
+    img: "assets/books/Wonka.jpg",
     stars: 4.03,
     description: [
       `WONKA tells the wondrous story of how the world's greatest inventor, magician and chocolate-maker becomes the beloved Willy Wonka we know today.`,
@@ -560,7 +560,7 @@ export const books = [
     title: "Crazy Love: Overwhelmed by a Relentless God",
     author:
       "Francis Chan, Danae Yankoski (Contributor), Chris Tomlin (Foreword)",
-    img: "/src/assets/books/Crazy Love Overwhelmed by a Relentless God.jpg",
+    img: "assets/books/Crazy Love Overwhelmed by a Relentless God.jpg",
     stars: 4.17,
     description: [
       `It's crazy, if you think about it. The God of the universe—the Creator of nitrogen and pine needles, galaxies and E-minor—loves us with a radical, unconditional, self-sacrificing love.`,
@@ -586,7 +586,7 @@ export const books = [
     id: 26,
     title: "Beyond Ivy Walls",
     author: "Rachel Fordham",
-    img: "/src/assets/books/Beyond Ivy Walls.jpg",
+    img: "assets/books/Beyond Ivy Walls.jpg",
     stars: 4.3,
     description: [
       `Reminiscent of Beauty and the Beast, a recluse and a young woman discover that the scars of life are no match against an act of love.`,
@@ -610,7 +610,7 @@ export const books = [
     id: 27,
     title: "Tracking Tilly",
     author: "Janice Thompson",
-    img: "/src/assets/books/Tracking Tilly.jpg",
+    img: "assets/books/Tracking Tilly.jpg",
     stars: 4.18,
     description: [
       `Who Stole Tilly from the Auction Block? Breathe in the nostalgia of everything old red truck in book one of a new cozy mystery series.`,
@@ -625,7 +625,7 @@ export const books = [
     id: 28,
     title: "Fahrenheit 451",
     author: "Ray Bradbury",
-    img: "/src/assets/books/Fahrenheit 451.jpg",
+    img: "assets/books/Fahrenheit 451.jpg",
     stars: 3.96,
     description: [
       `Set in a bleak, dystopian future, Ray Bradbury’s Fahrenheit 451 follows Guy Montag, a fireman whose job is to destroy books. As he encounters a young neighbor who opens his eyes to the world of ideas, Montag begins to question his society's anti-book stance.`,
@@ -655,7 +655,7 @@ export const books = [
     title: "Macbeth",
     author:
       "William Shakespeare, Carmen Kahn (Contributor), Jack Armstrong (Contributor)",
-    img: "/src/assets/books/Macbeth.jpg",
+    img: "assets/books/Macbeth.jpg",
     stars: 3.89,
     description: [
       `In this classic tale of greed and betrayal, Macbeth, spurred by his wife, embarks on a murderous quest to gain the Scottish crown. As he faces armies, ghosts, and magic, the price of his ambition becomes perilously clear.`,
@@ -670,7 +670,7 @@ export const books = [
     id: 30,
     title: "Pearl",
     author: "Sherri L. Smith, Christine Norrie (Illustrator)",
-    img: "/src/assets/books/Pearl.jpg",
+    img: "assets/books/Pearl.jpg",
     stars: 3.97,
     description: [
       `In this captivating graphic novel, thirteen-year-old Japanese-American Amy visits family in Hiroshima just before the attack on Pearl Harbor. Struggling with questions of loyalty and the realities of war, Amy must navigate her identity and find hope amid tragedy.`,
@@ -693,7 +693,7 @@ export const books = [
     title: "Friday, Book Three: Christmas Time is Here Again",
     author:
       "Ed Brubaker, Marcos Martín (Illustrator), Muntsa Vicente (Colorist)",
-    img: "/src/assets/books/Friday, Book Three Christmas Time is Here Again.jpg",
+    img: "assets/books/Friday, Book Three Christmas Time is Here Again.jpg",
     stars: 4.17,
     description: [
       `In the thrilling conclusion of this genre-defying series, Friday Fitzhugh must navigate time travel and confront the mysteries of her past to save Lancelot Jones. This final chapter unravels the secrets of Kings Hill and the White Lady's plans.`,
@@ -714,7 +714,7 @@ export const books = [
     id: 32,
     title: "Gender Queer",
     author: "Maia Kobabe",
-    img: "/src/assets/books/Gender Queer.jpg",
+    img: "assets/books/Gender Queer.jpg",
     stars: 4.28,
     description: [
       `Maia Kobabe's graphic memoir explores eir journey of self-identity, detailing the struggles and triumphs of being nonbinary and asexual. This deeply personal work serves as both an autobiography and a guide to understanding gender identity.`,
@@ -734,7 +734,7 @@ export const books = [
     id: 33,
     title: "Call Me By Your Name",
     author: "André Aciman",
-    img: "/src/assets/books/Call Me By Your Name.jpg",
+    img: "assets/books/Call Me By Your Name.jpg",
     stars: 4.1,
     description: [
       `A powerful romance unfolds between a boy and a summer guest at his parents' Italian Riviera mansion. As their attraction deepens, they confront desire and intimacy in a fleeting six-week summer that will leave a lasting impact.`,
@@ -760,7 +760,7 @@ export const books = [
     id: 34,
     title: "Aristotle and Dante Discover the Secrets of the Universe",
     author: "Benjamin Alire Sáenz",
-    img: "/src/assets/books/Aristotle and Dante Discover the Secrets of the Universe.jpg",
+    img: "assets/books/Aristotle and Dante Discover the Secrets of the Universe.jpg",
     stars: 4.31,
     description: [
       `Ari and Dante, two boys from different backgrounds, form an unbreakable bond that teaches them about identity, friendship, and love against the backdrop of 1980s Texas.`,
@@ -780,7 +780,7 @@ export const books = [
     id: 35,
     title: "Orlando",
     author: "Virginia Woolf",
-    img: "/src/assets/books/Orlando.jpg",
+    img: "assets/books/Orlando.jpg",
     stars: 3.87,
     description: [
       `Spanning three centuries, Woolf's novel follows Orlando, who transforms from a young nobleman into a woman, exploring themes of gender and identity in a playful and poignant narrative.`,
@@ -802,7 +802,7 @@ export const books = [
     id: 36,
     title: "Carol",
     author: "Patricia Highsmith",
-    img: "/src/assets/books/Carol.jpg",
+    img: "assets/books/Carol.jpg",
     stars: 4.02,
     description: [
       `Patricia Highsmith's story of romantic obsession may be one of the most important, but still largely unrecognized, novels of the twentieth century. First published in 1952 and touted as "the novel of a love that society forbids," the book soon became a cult classic.`,
@@ -826,7 +826,7 @@ export const books = [
     id: 37,
     title: "The Passion",
     author: "Jeanette Winterson",
-    img: "/src/assets/books/The Passion.jpg",
+    img: "assets/books/The Passion.jpg",
     stars: 4.11,
     description: [
       `"Winterson is a master of her material, a writer in whom great talent deeply abides." — Vanity Fair First published to great acclaim in 1987, this arresting, elegant novel from Jeanette Winterson uses Napolean’s Europe as the setting for a tantalizing surrealistic romance between an observer of history and a creature of fantasy. Jeanette Winterson’s novels have established her as one of the most important young writers in world literature.  The Passion  is perhaps her most highly acclaimed work, a modern classic that confirms her special claim on the novel. Set during the tumultuous years of the Napoleonic Wars,  The Passion  intertwines the destinies of two remarkable people: Henri, a simple French soldier, who follows Napoleon from glory to Russian ruin; and Villanelle, the red-haired, web-footed daughter of a Venetian boatman, whose husband has gambled away her heart. In Venice’s compound of carnival, chance, and darkness, the pair meet their singular destiny.`,
@@ -852,7 +852,7 @@ export const books = [
     id: 38,
     title: "The Paris Novel",
     author: "Ruth Reichl",
-    img: "/src/assets/books/The Paris Novel.jpg",
+    img: "assets/books/The Paris Novel.jpg",
     stars: 3.85,
     description: [
       `Bestselling author Ruth Reichl takes readers on an adventure of food, art, and fashion in 1980s Paris in this dazzling, heartfelt novel`,
@@ -883,7 +883,7 @@ export const books = [
     id: 39,
     title: "Divergent",
     author: "Veronica Roth",
-    img: "/src/assets/books/Divergent.jpg",
+    img: "assets/books/Divergent.jpg",
     stars: 4.14,
     description: [
       `In Beatrice Prior's dystopian Chicago world, society is divided into five factions, each dedicated to the cultivation of a particular virtue—Candor (the honest), Abnegation (the selfless), Dauntless (the brave), Amity (the peaceful), and Erudite (the intelligent). On an appointed day of every year, all sixteen-year-olds must select the faction to which they will devote the rest of their lives. For Beatrice, the decision is between staying with her family and being who she really is—she can't have both. So she makes a choice that surprises everyone, including herself.`,
@@ -909,7 +909,7 @@ export const books = [
     id: 40,
     title: "Love Triangle: How Trigonometry Shapes the World",
     author: "Matt Parker",
-    img: "/src/assets/books/Love Triangle How Trigonometry Shapes the World.jpg",
+    img: "assets/books/Love Triangle How Trigonometry Shapes the World.jpg",
     stars: 4.17,
     description: [
       `An ode to trigonometry, the most important idea in mathematics and the key concept that enables our modern world, from the internationally bestselling author of Humble Pi`,
@@ -928,7 +928,7 @@ export const books = [
     id: 41,
     title: "Quiet: The Power of Introverts in a World That Can't Stop Talking",
     author: "Susan Cain",
-    img: "/src/assets/books/Quiet The Power of Introverts in a World That Can't Stop Talking.jpg",
+    img: "assets/books/Quiet The Power of Introverts in a World That Can't Stop Talking.jpg",
     stars: 4.08,
     description: [
       `At least one-third of the people we know are introverts. They are the ones who prefer listening to speaking; who innovate and create but dislike self-promotion; who favor working on their own over working in teams. It is to introverts—Rosa Parks, Chopin, Dr. Seuss, Steve Wozniak—that we owe many of the great contributions to society.`,
@@ -953,7 +953,7 @@ export const books = [
     id: 42,
     title: "Loving Sylvia Plath: A Reclamation",
     author: "Emily Van Duyne",
-    img: "/src/assets/books/Loving Sylvia Plath A Reclamation.jpg",
+    img: "assets/books/Loving Sylvia Plath A Reclamation.jpg",
     stars: 4.28,
     description: [
       "A nuanced, intelligent, and passionate exploration of the life and work of one of the most misunderstood writers of the twentieth century. Sylvia Plath is an object of enduring cultural fascination―the troubled patron saint of confessional poetry; a writer whose genius is buried under the weight of her status as the quintessential literary sad girl. A pro-Plath polemic, Loving Sylvia Plath examines these myths in order to dismantle them and asks why, when Plath speaks frankly about her husband’s brutality, we refuse to take her at her word. Emily Van Duyne―a superfan and scholar―radically reimagines the last years of Plath’s life, confronts her suicide and the construction of her legacy, and offers feminist, interdisciplinary readings of her extraordinary poetry. Drawing from decades of study on Plath and her husband Ted Hughes, the chief architect of Plath’s mythology; never-before-seen archival materials; and a nuanced, empathetic understanding of the experience of domestic violence; Van Duyne seeks to undo the silencing of Sylvia Plath and resuscitate her as the hard-working, brilliant writer she was. 6 illustrations",
@@ -976,7 +976,7 @@ export const books = [
     id: 43,
     title: "The Wren, the Wren",
     author: "Anne Enright",
-    img: "/src/assets/books/The Wren, the Wren.jpg",
+    img: "assets/books/The Wren, the Wren.jpg",
     stars: 3.55,
     description: [
       `Nell McDaragh never knew her grandfather, the famed Irish poet Phil McDaragh. But his love poems seem to speak directly to her. Restless, full of verve and wit, twenty-two-year-old Nell leaves her mother Carmel’s home to find her voice as a writer and live a life of her choosing. Carmel, too, knows the magic of her Daddo’s poetry—and the broken promises within its verses. When Phil abandons the family, Carmel struggles to reconcile “the poet” with the man whose desertion scars Carmel, her sister, and their cancer-ridden mother.`,
@@ -1002,7 +1002,7 @@ export const books = [
     id: 44,
     title: "Lo Fi",
     author: "Liz Riggs",
-    img: "/src/assets/books/Lo Fi.jpg",
+    img: "assets/books/Lo Fi.jpg",
     stars: 3.77,
     description: [
       `Alison Hunter came to Nashville for the music, a town where everyone—herself included—wants to make it in the business. Most nights, you’ll find her at The Venue, the kind of sweaty Nashville spot that’s on the circuit for bands like Bon Iver and Death Cab. Sounds glamorous—but not for Al, who stamps hands at the door with Julien, the quiet coworker who treats her like a little sister. She bums drinks from the tattooed bartender and watches the bands, wondering if she’ll ever finish a song of her own after her disastrous attempt to play in public. After a once-in-a-century storm hits and her lead singer ex-boyfriend shows up at the door, Al finds herself stuck in a perpetual cycle of late nights, new flings, and old flames. Obsessed with the disappearance of a troubled indie star, she slowly starts to lose it herself—until one reckless night threatens to derail everything. As propulsive and sexy as the rasp of a static-driven amp, Lo Fi is an open-hearted tribute to the messy truth of the creative life, the clash of lust and love, and the yearning to be heard.`,
@@ -1017,7 +1017,7 @@ export const books = [
     id: 45,
     title: "Better Homes and Gardens New Cook Book",
     author: "Better Homes and Gardens",
-    img: "/src/assets/books/Better Homes and Gardens New Cook Book.jpg",
+    img: "assets/books/Better Homes and Gardens New Cook Book.jpg",
     stars: 4.15,
     description: [
       `Features: Over 900 new recipes -- 1,200 in all-reflect current eating habits and lifestyles; 500 new photographs -- over 700 in all-including 60 percent more of finished food than the last edition; Dozens of new recipes offer ethnic flavours, fresh ingredients, or vegetarian appeal; Many recipes feature make-ahead directions or quick-to-the-table meals; New chapter provides recipes for crockery cookers; Efficient, easy-to-read format, with recipes categorised into 21 chapters, each thoroughly indexed for easy reference; Expanded chapter on cooking basics includes advice on food safety, menu planning, table setting, and make-ahead cooking, plus a thorough glossary on ingredients and techniques; Appliance-friendly recipes help cooks save time and creatively use new kitchen tools; Nutrition information with each recipe, plus diabetic exchanges; Contemporary food photography attracts browsers and helps cooks discover new recipes to make; Icons identify low-fat, no-fat, fast, and best-loved recipes; Every recipe tested and perfected by the Better Homes and Gardens Test Kitchen; Revised and updated cooking charts, ingredient photos, emergency substitutions, and equivalents; Respected, reliable kitchen reference with hundreds of cooking terms, tips, and techniques.`,
@@ -1032,7 +1032,7 @@ export const books = [
     id: 46,
     title: "I Can Cook 'Pastry'",
     author: "Marika Germanis",
-    img: "/src/assets/books/I Can Cook Pastry.jpg",
+    img: "assets/books/I Can Cook Pastry.jpg",
     stars: 4.65,
     description: [
       `A Children's Simple Pastry Cook Book with simple step by step instructions. A beginners cook book ideal for your children who will instantly learn to make these simple pastry recipes with adult guidance and supervision. In NO time your children will be making these delicious pasty recipes, sausage rolls, Cornish pasties, a variety of pies and more just like my grand daughter "Imsi" makes with Granny Marika`,
@@ -1048,7 +1048,7 @@ export const books = [
   //   id: 22,
   //   title: "",
   //   author: "",
-  //   img: "/src/assets/books/Peggy.jpg",
+  //   img: "assets/books/Peggy.jpg",
   //   stars: 3.66,
   //   description: [],
   //   genre: [],
