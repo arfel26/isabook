@@ -1,5 +1,5 @@
 import "./styles/App.css";
-import { HashRouter as Router, Route, Routes } from "react-router-dom";
+import { BrowserRouter, Routes, Route } from "react-router-dom";
 import Home from "./pages/Home";
 import Books from "./pages/Books";
 import Book from "./pages/Book";
@@ -10,17 +10,17 @@ import Footer from "./components/Footer";
 function App() {
   return (
     <>
-      <Navigation />
-      <Router>
+      <BrowserRouter basename="/isabook/">
+        <Navigation />
         <Routes>
           <Route path="/" element={<Home />} />
           <Route path="/books" element={<Books />} />
           <Route path="/book/:id" element={<Book />} />
-          <Route path="/about" element={<About />} />
           <Route path="/books/:category" element={<Books />} />
+          <Route path="/about" element={<About />} />
         </Routes>
-      </Router>
-      <Footer />
+        <Footer />
+      </BrowserRouter>
     </>
   );
 }

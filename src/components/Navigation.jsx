@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React from "react";
 import { Menu, MenuButton, MenuItem, MenuItems } from "@headlessui/react";
 import { Link } from "react-router-dom";
 
@@ -71,14 +71,14 @@ function Navigation() {
           >
             <ul className="font-extrabold lg:flex lg:flex-row lg:space-x-11 lg:space-y-0 ">
               <li className="sm:mt-6 md:mt-0 ">
-                <a href="/" className="block my-3 md:py-2 md:px-3">
+                <Link to="/" className="block my-3 md:py-2 md:px-3">
                   Home
-                </a>
+                </Link>
               </li>
               <li>
-                <a href="/books" className="block my-3 md:py-2 md:px-3">
+                <Link to="/books" className="block my-3 md:py-2 md:px-3">
                   Books
-                </a>
+                </Link>
               </li>
               <li>
                 <Menu>
@@ -96,12 +96,12 @@ function Navigation() {
                           <ul key={listIndex}>
                             {categoryList.map((category, categoryIndex) => (
                               <MenuItem key={categoryIndex}>
-                                <a
-                                  href={`/books?category=${category}`}
+                                <Link
+                                  to={`/books?category=${category}`}
                                   className="dropdown-choice group flex w-full gap-2 p-2 hover:bg-gray-200 font-semibold"
                                 >
                                   {category}
-                                </a>
+                                </Link>
                               </MenuItem>
                             ))}
                           </ul>
@@ -112,9 +112,9 @@ function Navigation() {
                 </Menu>
               </li>
               <li>
-                <a href="/about" className="block my-3 md:py-2 md:px-3">
+                <Link to="/about" className="block my-3 md:py-2 md:px-3">
                   About
-                </a>
+                </Link>
               </li>
             </ul>
           </div>
