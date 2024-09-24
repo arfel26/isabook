@@ -211,3 +211,8 @@
 .navigation {
   font-family: Montserrat;
 }
+
+.send-button {
+  background-color: #fff5ee;
+  color: #040c0b;
+}
