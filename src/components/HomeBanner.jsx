@@ -9,7 +9,7 @@ import "swiper/css/scrollbar";
 
 function HomeBanner() {
   return (
-    <div>
+    <div className="home-banner">
       <Swiper
         modules={[Navigation, Pagination, Scrollbar, A11y]}
         spaceBetween={50}
@@ -25,8 +25,7 @@ function HomeBanner() {
             <img
               src={import.meta.env.BASE_URL + `assets/${cover}.png`}
               className="w-full h-full object-cover"
-              alt=""
-              srcset=""
+              alt={`${cover}.png`}
             />
           </SwiperSlide>
         ))}

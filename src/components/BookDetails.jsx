@@ -1,6 +1,7 @@
 import React from "react";
 import { useParams } from "react-router-dom";
 import { books } from "../data/BookList";
+import { motion } from "framer-motion";
 
 function BookDetails() {
   const { id } = useParams();
@@ -8,21 +9,52 @@ function BookDetails() {
   const book = selectedBook[0];
   const bookImg = `${book.img}`;
 
+  const cont = {
+    hidden: { opacity: 0, scale: 0.9 },
+    visible: {
+      opacity: 1,
+      scale: 1,
+      transition: {
+        duration: 0.3,
+        staggerChildren: 0.1,
+      },
+    },
+  };
+
+  const item = {
+    hidden: { y: 20, opacity: 0 },
+    visible: {
+      y: 0,
+      opacity: 1,
+      transition: {
+        duration: 0.6,
+      },
+    },
+  };
   return (
     <div>
       <div className="m-[0.5rem] p-[0.5rem] md:m-[1rem] md:p-[1rem] lg:my-[4rem] lg:mx-[10rem] lg:p-[3rem] lg:min-h-[80%] lg:max-h-[100%] rounded-2xl">
-        <div
-          className="book grid grid-cols-1 lg:grid-cols-3 gap-1 lg:gap-5"
+        <motion.div
           key={id}
+          className="cont book grid grid-cols-1 lg:grid-cols-3 gap-1 lg:gap-5"
+          variants={cont}
+          initial="hidden"
+          animate="visible"
         >
-          <div className="left book-img flex justify-center items-center p-5 md:p-10">
+          <motion.div
+            variants={item}
+            className="left book-img flex justify-center items-center p-5 md:p-10"
+          >
             <img
               src={import.meta.env.BASE_URL + bookImg}
               alt={book.title}
               className="bg-[#1c4b47] p-5 w-full h-auto max-w-[250px] max-h-[400px] lg:max-w-[450px] lg:max-h-[950px]"
             />
-          </div>
-          <div className="right book-details col-span-1 lg:col-span-2 p-5 space-y-7 lg:space-y-7">
+          </motion.div>
+          <motion.div
+            variants={item}
+            className="right book-details col-span-1 lg:col-span-2 p-5 space-y-7 lg:space-y-7"
+          >
             <div className="book-title">
               <h1 className="title text-3xl lg:text-6xl text-center lg:text-left">
                 {book.title}
@@ -45,7 +77,7 @@ function BookDetails() {
               </div>
             </div>
             <div className="book-description">
-              <h1 className="uppercase font-semibold">Lorem ipsum</h1>
+              <h1 className="uppercase font-semibold">Synopsis</h1>
               <div className="description space-y-4">
                 {book.description.map((paragraph, index) => (
                   <p key={index} className="text-justify">
@@ -73,8 +105,8 @@ function BookDetails() {
                 <span className="font-medium">Pages:</span> {book.pages}
               </p>
             </div>
-          </div>
-        </div>
+          </motion.div>
+        </motion.div>
       </div>
     </div>
   );
